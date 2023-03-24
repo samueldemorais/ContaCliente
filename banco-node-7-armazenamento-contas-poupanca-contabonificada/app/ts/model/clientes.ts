@@ -4,7 +4,7 @@ class Clientes{
     constructor(){
         this.clientes = [];
     }
-
+    
     inserir(cliente: Cliente): void{
         this.clientes.push(cliente);
     }

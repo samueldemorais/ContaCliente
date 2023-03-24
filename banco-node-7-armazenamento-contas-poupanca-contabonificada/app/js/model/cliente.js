@@ -25,4 +25,9 @@ class Cliente {
     set conta(NovaConta) {
         this._conta = NovaConta;
     }
+    toString() {
+        return `Nome: ${this._nome} 
+        - CPF: ${this._cpf}
+        - Conta: ${this._conta}`;
+    }
 }

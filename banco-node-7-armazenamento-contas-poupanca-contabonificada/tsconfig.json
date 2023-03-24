@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "esnext",
     "outDir": "app/js",
     "noEmitOnError": true,
     "noImplicitAny": true
